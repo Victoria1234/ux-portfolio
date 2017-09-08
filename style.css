@@ -23,10 +23,6 @@ body {
 /*IMAGE TOP
 ___________________________________________________*/
 
-.py-5 {
-    margin-bottom: 5rem!important;
-}
-
 .bg-image-full {
     background-repeat: no-repeat;
 /*    width: 50rem;*/
@@ -40,6 +36,15 @@ ___________________________________________________*/
     position: relative;
 }
 
+header.py-5 {
+    margin-bottom: 5rem!important;
+    margin-top: 80px;
+}
+
+.lead-style {
+    font-style: italic;
+}
+
 /*PROJECTS
 ------------------------------------------------*/
 
@@ -50,6 +55,23 @@ ___________________________________________________*/
 
 /*MODAL/LIGHTBOX
 -------------------------------------------------*/
+
+.carousel-caption {
+    color: #000000;
+   
+}
+
+.carousel-background {
+    background-color: antiquewhite;
+    display: block;
+    text-align: left;
+    padding: 15px;
+    
+}
+
+.carousel-inner .carousel-item img {
+    width:100%;
+}
 
 /* TIMELINE
 ------------------------------------------------*/
