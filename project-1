@@ -21,13 +21,13 @@
          <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
                <li class="nav-item active">
-                  <a class="nav-link" href="#header-projects">Projects <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="#">Projects <span class="sr-only">(current)</span></a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="#timeline-container">About</a>
+                  <a class="nav-link" href="#">About</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="#contact-container">Contact</a>
+                  <a class="nav-link disabled" href="#">Contact</a>
                </li>
             </ul>
          </div>
@@ -55,7 +55,7 @@
                <h4>Who uses our product?</h4>
                <p>Field Studies</p>
                <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal-1">Summary &raquo;</button>
-               <a href="project-1.html"><button class="btn btn-primary btn-sm">Detailed &raquo;</button></a>
+               <a href="#"><button class="btn btn-primary btn-sm">Detailed &raquo;</button></a>
                <div id="modal-1"  class="modal fade bd-example-modal-lg-1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                   <div class="modal-dialog modal-lg">
                      <div class="modal-content">
@@ -65,8 +65,8 @@
                                  <img src="images/smartwatch-1-goals.png" alt="...">
                                  <div class="carousel-caption d-none d-md-block">
                                      <span class="carousel-background">
-                                    <h4>How are people using smartwatches?</h4>
-                                    <p></p>
+                                    <h3>Intro to the final client presentation</h3>
+                                    <p>We were asked to conduct a field study of how people are using smartwatches. I worked in a two person team where we started by each interviewing three smartwatch users. Then we developed personas based on these interviews.</p>
                                      </span>
                                  </div>
                               </div>
@@ -406,7 +406,6 @@
          </div>
          <!-- END Modal/lightbox -->
          <!-- Timeline - Codepen by Jennifer Perrin -->
-        <div id="timeline-container">
          <h2>The road to UX</h2>
          <p>Being in UX now, my previous experience in information science and educaiotn has given me real world experience in human information behaviors and cognition. The art of the "reference interview" also comes in handy when drilling down to the real nature of a problem and its solution. </p>
          <ul class="timeline">
@@ -491,7 +490,7 @@
                      <p>Yes, I have a Master’s in Library and Information Science. Contrary to TV and movie portrayals, the degree is not all buns and “shhh.” I’ve worked in countywide library systems as well as municipal libraries where I handled team management, changing technology, content curation, marketing, budgets, and customer experience each day. My time working as a librarian has given me a solid foundation for UX in research, observation, and customer service. (MLIS, Rutgers University)</p>
                   </div>
                   <div class="timeline-footer">
-                     <p class="text-right">Many years</p>
+                     <p class="text-right">Ten years</p>
                   </div>
                </div>
             </li>
@@ -507,16 +506,14 @@
                      <p>I love the Montessori philosophy of giving young children opportunities to learn through experimentation and exercising creativity. As a designer, I want to move beyond the limitations of the screen and create truly interactive experiences. (Teaching Certification, Princeton Center for Teacher Education)</p>
                   </div>
                   <div class="timeline-footer primary">
-                     <p class="text-right">A few years</p>
+                     <p class="text-right">Six years</p>
                   </div>
                </div>
             </li>
             <li class="clearfix no-float"></li>
          </ul>
-          </div>
-            <!-- CONTACT - W3schools -->
-         <div id="contact-container">
-          <div class="container">
+         <!-- CONTACT - W3schools -->
+         <div class="container">
             <form action="/action_page.php">
                <label for="fname">Name</label>
                <input type="text" id="fname" name="name" placeholder="Your name..">
@@ -527,7 +524,6 @@
                <input type="submit" value="Submit">
             </form>
          </div>
-        </div>
          <!-- FOOTER -->
          <footer>
             <p class="float-right"><a href="#">Back to top</a></p>

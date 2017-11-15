@@ -9,7 +9,7 @@ body {
 }
 
 .navbar {
-    background-color: #D5BEB7!important;
+    background-color: #5a5a5a!important;
 }
 
 .nav-link {
@@ -20,12 +20,15 @@ body {
     float: right!important;
 }
 
+.btn-primary {
+    margin-bottom: 1rem;
+}
+
 /*IMAGE TOP
 ___________________________________________________*/
 
 .bg-image-full {
     background-repeat: no-repeat;
-/*    width: 50rem;*/
     width:100%;
     max-width: 800px;
 	height: 25rem;
@@ -37,20 +40,47 @@ ___________________________________________________*/
 }
 
 header.py-5 {
-    margin-bottom: 5rem!important;
+    margin-bottom: 1rem!important;
     margin-top: 80px;
+}
+
+.eye-header {
+    width: 100%;
 }
 
 .lead-style {
     font-style: italic;
 }
 
+.author {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.tagline {
+    font-size: 1.5rem;
+}
+
+.fa-envelope-o {
+    color: #000000;
+}
 /*PROJECTS
 ------------------------------------------------*/
+#header-projects {
+    margin-bottom: 2rem;
+}
 
 .btn-primary {
     background-color: #F8B96B;
     border-color: #F8B96B;
+}
+
+#projects {
+    margin-bottom: 3rem;
+}
+
+.row {
+    margin-bottom: 3rem;
 }
 
 /*MODAL/LIGHTBOX
@@ -58,16 +88,18 @@ header.py-5 {
 
 .carousel-caption {
     color: #000000;
-   
+    background-color: #ffffff;
+    opacity:.7;
 }
 
-.carousel-background {
+/*.carousel-background {
     background-color: antiquewhite;
+    opacity:.5;
     display: block;
     text-align: left;
     padding: 15px;
     
-}
+}*/
 
 .carousel-inner .carousel-item img {
     width:100%;
@@ -170,7 +202,7 @@ header.py-5 {
     right: auto;
 }
 .timeline-badge > a {
-    color: #ffffff !important;
+    color: #F6B1A7 !important;
 }
 .timeline-badge a:hover {
     color: #dcdcdc !important;
