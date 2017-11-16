@@ -64,6 +64,7 @@ header.py-5 {
 .fa-envelope-o {
     color: #000000;
 }
+
 /*PROJECTS
 ------------------------------------------------*/
 #header-projects {
@@ -91,6 +92,16 @@ a:.project-title-link {
     color: #F6B1A7;
 }
 
+
+/*PROJECT PAGES
+------------------------------------------------*/
+.jumbotron {
+    margin: 15px;
+    background-color: #ffffff;
+}
+.jumbotron .h1 {
+    font-weight: 300;
+}
 /* TIMELINE
 ------------------------------------------------*/
 .timeline {
@@ -311,3 +322,42 @@ input[type=submit]:hover {
     background-color: #ffffff;
     padding: 20px;
 }
+
+/* FOOTER
+-------------------------------------------------- */
+
+footer {
+    margin: auto;
+    width: 100%;
+    overflow: auto;
+    display: inline-block;
+    text-align: center;
+}
+
+#front footer {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
