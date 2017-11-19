@@ -92,6 +92,10 @@ a:.project-title-link {
     color: #F6B1A7;
 }
 
+.card img {
+    width: 100%;
+    height: auto;
+}
 
 /*PROJECT PAGES
 ------------------------------------------------*/
