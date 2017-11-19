@@ -24,6 +24,15 @@ body {
     margin-bottom: 1rem;
 }
 
+.navbar-social-media {
+    display: inline-block;
+}
+
+.navbar-social-media li {
+    display: inline;
+    color: #ffffff;
+}
+
 /*IMAGE TOP
 ___________________________________________________*/
 
@@ -88,13 +97,13 @@ header.py-5 {
     height: 5rem;
 }
 
-a:.project-title-link {
-    color: #F6B1A7;
+.project-title-link {
+    color: #F8B96B;
+
 }
 
-.card img {
-    width: 100%;
-    height: auto;
+.col-lg-4 {
+    padding: .5rem;
 }
 
 /*PROJECT PAGES
@@ -137,10 +146,19 @@ a:.project-title-link {
   margin-bottom: .75rem;
 }
 
+.card img {
+    width: 100%;
+    height: auto;
+}
+
 .card-text {
   font-size: 85%;
 }
 
+.font-italics {
+    font-style: italic;
+    font-size: 1rem;
+}
 /* TIMELINE
 ------------------------------------------------*/
 .timeline {
