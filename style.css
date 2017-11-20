@@ -62,23 +62,34 @@ ___________________________________________________*/
 
 .bg-image-full {
     background-repeat: no-repeat;
-    width:100%;
-    max-width: 800px;
-	height: 25rem;
-	left: 0;
-	right: 0;
-	top: 0rem;
-	margin: auto;
+    text-align: center;
     position: relative;
+    height: 100vh;
+}
+
+@media(max-width: 600px){
+    .bg-image-full {
+        height: 50vh;
+        margin-top: 56px;
+    }
 }
 
 header.py-5 {
-    margin-bottom: 1rem!important;
-    margin-top: 80px;
+    /*margin-bottom: 1rem!important;
+    margin-top: 80px;*/
 }
 
 .eye-header {
+    max-width: 800px;
     width: 100%;
+    height: auto;
+  
+/*  ie fix*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
 }
 
 .lead-style {
