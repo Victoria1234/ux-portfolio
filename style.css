@@ -123,7 +123,14 @@ header.py-5 {
 
 .project-title-link {
     color: #F8B96B;
+}
 
+.project-title-link:hover {
+    color: #F6B1A7;
+}
+
+.project-title-link:visited {
+    color: #DDEBAF;
 }
 
 .col-lg-4 {
