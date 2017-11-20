@@ -25,36 +25,71 @@ body {
 }
 
 .navbar-social-media {
-    display: inline-block;
+    display: block;
+    float: left;
+    margin-bottom: 0px;
+
 }
 
 .navbar-social-media li {
     display: inline;
-    color: #ffffff;
+    padding: 8px;
 }
+
+.navbar-social-media li a {
+    color: rgba(255,255,255,.5);
+}
+.navbar-social-media li a:hover {
+    color:rgba(255,255,255,.75);
+}
+
+@media(max-width: 767px){
+    .nav-link, .navbar-social-media {
+        float: left!important;
+    }
+    .navbar-social-media li {
+        display: inline-block;
+        width: 100%
+    }
+    .navbar-social-media {
+        padding-left: 0px;
+    }
+}
+
 
 /*IMAGE TOP
 ___________________________________________________*/
 
 .bg-image-full {
     background-repeat: no-repeat;
-    width:100%;
-    max-width: 800px;
-	height: 25rem;
-	left: 0;
-	right: 0;
-	top: 0rem;
-	margin: auto;
+    text-align: center;
     position: relative;
+    height: 100vh;
+}
+
+@media(max-width: 600px){
+    .bg-image-full {
+        height: 50vh;
+        margin-top: 56px;
+    }
 }
 
 header.py-5 {
-    margin-bottom: 1rem!important;
-    margin-top: 80px;
+    /*margin-bottom: 1rem!important;
+    margin-top: 80px;*/
 }
 
 .eye-header {
+    max-width: 800px;
     width: 100%;
+    height: auto;
+  
+/*  ie fix*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
 }
 
 .lead-style {
@@ -99,7 +134,14 @@ header.py-5 {
 
 .project-title-link {
     color: #F8B96B;
+}
 
+.project-title-link:hover {
+    color: #F6B1A7;
+}
+
+.project-title-link:visited {
+    color: #DDEBAF;
 }
 
 .col-lg-4 {
