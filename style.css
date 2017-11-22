@@ -64,7 +64,7 @@ ___________________________________________________*/
     background-repeat: no-repeat;
     text-align: center;
     position: relative;
-    height: 100vh;
+    height: 50vh;
 }
 
 @media(max-width: 600px){
@@ -75,14 +75,14 @@ ___________________________________________________*/
 }
 
 header.py-5 {
-    /*margin-bottom: 1rem!important;
-    margin-top: 80px;*/
+  
 }
 
 .eye-header {
     max-width: 800px;
     width: 100%;
     height: auto;
+    margin-top: 5rem;
   
 /*  ie fix*/
   position: absolute;
