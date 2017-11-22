@@ -148,6 +148,10 @@ header.py-5 {
     padding: .5rem;
 }
 
+.project-link {
+    color: #F8B96B;
+}
+
 /*PROJECT PAGES
 ------------------------------------------------*/
 .jumbotron {
@@ -201,6 +205,15 @@ header.py-5 {
     font-style: italic;
     font-size: 1rem;
 }
+
+.project-date {
+     margin: auto;
+    width: 100%;
+    overflow: auto;
+    display: inline-block;
+    text-align: center;
+}
+
 /* TIMELINE
 ------------------------------------------------*/
 .timeline {
@@ -311,6 +324,7 @@ header.py-5 {
     font-weight: 400;
     padding: 0 15px;
     color: #F8B96B;
+    margin-top: 1rem;
 }
 .timeline-body > p, .timeline-body > ul {
     padding: 10px 15px;
@@ -431,12 +445,6 @@ footer {
     overflow: auto;
     display: inline-block;
     text-align: center;
-}
-
-#front footer {
-    bottom: 0;
-    position: absolute;
-    right: 0;
 }
 
 /* RESPONSIVE CSS
